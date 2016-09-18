@@ -1,0 +1,342 @@
+*{
+	box-sizing: border-box;
+}
+
+.body{
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+ 
+}
+
+
+*::selection{
+	text-shadow: none;
+	background: #4DB6AC;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #ffffff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:link, .navbar-default .navbar-nav>li>a:visited{
+	color: #ffffff;
+}
+
+.navbarposition{
+	text-transform: uppercase;
+	font-size: 14;
+	color:#ffffff;
+	font-weight: 400;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+.navbarsetting{
+	background-color: #444444;
+	border-bottom-color: transparent;
+}
+
+.homepage{
+	background-image: url(img/krawiec.jpg);
+	background-size: cover;
+}
+
+.welcome{
+	color: #ffffff;
+	font-size: 34px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-style: italic;
+	padding-top: 305px;
+}
+
+.claim{
+	color: #ffffff;
+	font-size: 57px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 67px;
+}
+
+.yellowbutton{
+	background-color: #444444;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 74px;
+	border-color: #444444;
+}
+
+.yellowbutton:hover{
+	background-color: #444444;
+	border-color: #444444;
+}
+
+.header1{
+	color: #333333;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.1;
+	text-transform: uppercase;
+	margin-top: 157px;
+	margin-bottom: 28px;
+	text-align: center;
+}
+
+.header2{
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	color: #7f7777;
+	margin-bottom: 74px;
+}
+
+.yellowcirle{
+	width: 97px;
+	height: 97px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	background-color: #4db6ac;
+	font-size: 70px;
+	color: #ffffff;
+	padding: 12px;
+	text-align: center;
+}
+
+.header3{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.1;
+	color: #333333;	
+	text-align: center;
+}
+
+.textservice{
+	color: #837777;
+	size: 14px;
+	margin-top: 27px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.portfoliosetting{
+	background-color: #eeeeee;
+}
+
+.portset{
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.textportfolio{
+	color: #777777;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 31px;
+	margin-bottom: 29px;
+}
+
+.portforow2{
+	padding-bottom: 180px;
+}
+
+.line{
+	position: relative;
+	z-index: 0;
+}
+
+.line::before{
+	border: solid 3px #f1f1f1;
+	position: absolute;
+	width: 3px;
+	left: 50%;
+	top:0;
+	bottom: 0;
+	z-index: 1;
+	content: "";
+	margin-bottom: 100px;
+}
+
+.lineset{
+	position: relative;
+	z-index: 2
+}
+
+.aboutcirle{
+	width: 172px;
+	height: 172px;
+	font-size: 92px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	border: 8px solid #f1f1f1;
+	background: #4db6ac;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.aboutcirle .fa {
+	line-height: 144px;
+}
+
+.header4{	
+	font-size: 16px;
+	font-weight: 900;
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+.textabout{
+	color: #837777;
+	size: 14px;
+	margin-top: 27px;
+	text-align: right;
+	margin-bottom: 100px;
+	padding-left: 62px;
+}
+
+.rightside{
+	text-align: left;
+	padding-left: 0px;
+}
+
+.bepart{
+	width: 172;
+	height: 172;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	background-color: #fed136;
+	padding-top: 40px;
+	margin-bottom: 100px;
+	border: 8px solid #f1f1f1;
+}
+
+.textbepart{
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.team{
+	background-color: #eeeeee;
+}
+
+.me-quote{
+	font-size: 14px;
+	color: #50597a;
+}
+
+.textteam{
+	color: #777777;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 168px;
+	margin-top: 57px;
+}
+
+.logo{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contactsetting{
+	background-color: #222222;
+	background-image: url(img/mapa.png);
+}
+
+.headercontact{
+	color: #ffffff;
+}
+
+.buttonsend{
+	background-color: #50597a;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 700;
+	border-color: #50597a;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	height: 70px;
+	width: 230px;
+	font-size: 18px;
+	margin-bottom: 149px;
+	margin-top: 51px;
+}
+
+.contactform{
+	height: 61px;
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contactsetting .messageform{
+	width: 554px;
+	height: 241px;
+	text-transform: uppercase;
+
+}
+
+.copy{
+	color: #222222;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	padding: 20px;
+}
+
+.copy::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+.teamblackico{
+	text-align: center;
+}
+
+.teamico{
+	border-radius: 50%;
+	margin-right: 15px;
+	background-color: #222222;
+	border-radius: 50%;
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+	font-size: 25px;
+	padding-top: 10px;
+	color: #ffffff;
+}
+
+.linkcolorteam{
+	color: #ffffff;
+}
+
+
+
+

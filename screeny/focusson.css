@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Open Sans',sans-serif;,"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav-wrap{
+	background-color: #39383f;
+}
+
+.navbrand{
+	text-transform: uppercase;
+}
+
+.homepage-wrap{
+	background-image: (focusson-images/background.jpg);
+	background-size: cover;
+	background-position: fixed;
+	
+}
